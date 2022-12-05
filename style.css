@@ -1,0 +1,97 @@
+body{
+    background-color: #FFFFE3;
+    color: #253A52;
+    font-family: sans-serif, Verdana;
+    padding: 25px;
+    max-width: 1024px;
+    margin: 0 auto;
+
+}
+
+nav{
+    text-align: center;
+}
+
+.a-about, .a-contact, .a-projects{
+    padding: 5px;
+}
+
+a:hover{
+    color: rgba(43, 207, 10, 0.925)
+}
+
+a{
+    text-decoration:none;
+    color:  #253A52
+}
+.profile-image{
+    border: 3px solid #253A52;
+    border-radius: 50px;
+    width: 250px;
+
+}
+
+h2{
+    font-size: 3rem;
+}
+
+.begin{
+    display: flex;
+}
+
+.intro{
+    margin: 15px;
+
+}
+
+.linkedin, .github, .CV{
+    text-decoration: none;
+    color: #FFFFE3;
+    border-radius: 30px;
+    padding: 5px;
+
+}
+
+.linkedin{
+    background:  #0A66C2
+}
+
+.github{
+    background: #171515
+}
+
+.CV{
+    background: yellowgreen;
+}
+
+.projects-title{
+    text-align: center;
+}
+
+article{
+    column-count: 2;
+    text-align: center;
+    margin-bottom: 50px;
+    border-bottom: 2px dashed #253A52;
+    padding-bottom: 15px;
+}
+
+.lacasa, .supertrunfo{
+    padding-bottom: 40px;
+}
+
+.projectImg{
+    width:450px;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.contact{
+    text-align: center;
+}
